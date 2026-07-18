@@ -1,4 +1,4 @@
-# Stajda Öğrenilen JS Teknikleri — Kaliteli Örnekler (Zirve Spor Kulübü)
+# Stajda Öğrenilen JS Teknikleri — 
 
 Bu klasör, staj sırasında öğrenilip uygulanan JavaScript tekniklerinin,
 gerçek staj projesindeki editöryal tasarım diliyle (aynı renk sistemi
