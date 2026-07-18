@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zirve Spor Kulübü — Kulübümüz Rakamlarla</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="logo"><span class="logo-mark">ZS</span> Zirve Spor Kulübü</div>
+    <nav class="site-nav">
+      <a href="#branslar">Branşlar</a>
+      <a href="#rakamlar">Rakamlar</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+    <a href="#kayit" class="nav-cta">Üye Ol</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow"><i class="fa-solid fa-medal"></i> 1998'den Bugüne</span>
+    <h1>Azimle, disiplinle, sahada büyüyen bir kulüp.</h1>
+    <p class="lead">Zirve Spor Kulübü, çocuklardan profesyonel sporculara kadar geniş bir kadroyu; basketbol, yüzme, atletizm ve voleybol branşlarında bir araya getiriyor. Aşağı kaydırdıkça kulübümüzün büyüklüğünü rakamlarla keşfedin.</p>
+  </div>
+</section>
+
+<section id="branslar">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="eyebrow">Branşlarımız</span>
+      <h2>Dört branş, tek çatı altında</h2>
+      <p>Her biri kendi alanında uzman antrenör kadrosuna sahip dört ana branşta faaliyet gösteriyoruz. Aşağıdaki kartlar, ekrana girdikçe sırayla belirir — <code>IntersectionObserver</code> ile tetiklenen bir "scroll reveal" tekniğidir.</p>
+    </div>
+
+    <div class="reveal-group reveal-stagger">
+      <div class="reveal-card">
+        <i class="fa-solid fa-basketball"></i>
+        <h3>Basketbol</h3>
+        <p>Alt yapıdan A takıma uzanan geniş bir kadro yapısı ve modern kapalı spor salonu.</p>
+      </div>
+      <div class="reveal-card">
+        <i class="fa-solid fa-person-swimming"></i>
+        <h3>Yüzme</h3>
+        <p>Olimpik ölçülerde havuzda haftada beş gün profesyonel antrenman programı.</p>
+      </div>
+      <div class="reveal-card">
+        <i class="fa-solid fa-person-running"></i>
+        <h3>Atletizm</h3>
+        <p>Sprint, uzun mesafe ve atma branşlarında bireysel gelişim odaklı çalışma.</p>
+      </div>
+      <div class="reveal-card">
+        <i class="fa-solid fa-volleyball"></i>
+        <h3>Voleybol</h3>
+        <p>Kadın ve erkek takımlarımızla bölge liginde üst sıralarda mücadele ediyoruz.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rakamlar" class="stats-section">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="eyebrow">Rakamlarla Biz</span>
+      <h2>Sayılar görünür olduğunda canlanıyor</h2>
+      <p>Bu bölüm ekrana girdiğinde sayaçlar 0'dan hedef değere doğru sayar. Sayma işlemi yalnızca bir kez, kullanıcı bu alanı gördüğünde tetiklenir.</p>
+    </div>
+
+    <div class="stats">
+      <div class="stat-cell">
+        <h2 data-target="1200">0</h2>
+        <p>Aktif Sporcu</p>
+      </div>
+      <div class="stat-cell">
+        <h2 data-target="35">0</h2>
+        <p>Lisanslı Antrenör</p>
+      </div>
+      <div class="stat-cell">
+        <h2 data-target="14">0</h2>
+        <p>Branş &amp; Alt Kategori</p>
+      </div>
+      <div class="stat-cell">
+        <h2 data-target="87">0</h2>
+        <p>Kazanılan Madalya</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="iletisim">
+  <div class="wrap reveal">
+    <div class="cta-band">
+      <div>
+        <span class="eyebrow">Bize Katılın</span>
+        <h2>Sıradaki sporcu sen ol.</h2>
+      </div>
+      <a href="#kayit" class="nav-cta">Kayıt Formu</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="logo"><span class="logo-mark">ZS</span> Zirve Spor Kulübü</div>
+    <div class="footer-links">
+      <a href="#branslar">Branşlar</a>
+      <a href="#rakamlar">Rakamlar</a>
+      <a href="#iletisim">İletişim</a>
+    </div>
+  </div>
+  <div class="footer-bottom">Bu sayfa bir teknik gösterim (demo) amacıyla hazırlanmıştır.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

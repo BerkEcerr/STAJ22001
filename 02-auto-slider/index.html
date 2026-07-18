@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zirve Spor Kulübü — Kulüp Haberleri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="logo"><span class="logo-mark">ZS</span> Zirve Spor Kulübü</div>
+    <nav class="site-nav">
+      <a href="#haberler">Haberler</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+    <a href="#" class="nav-cta">Üye Ol</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow"><i class="fa-solid fa-newspaper"></i> Kulüp Gündemi</span>
+    <h1>Sahadan ve havuzdan son haberler.</h1>
+    <p class="lead">Kulübümüzdeki gelişmeleri, başarıları ve duyuruları tek bir yerden takip edin. Slider otomatik olarak ilerler; üzerine geldiğinizde durur.</p>
+  </div>
+</section>
+
+<section id="haberler">
+  <div class="wrap">
+    <div class="slider-wrap">
+      <div class="slider" id="newsSlider">
+        <div class="track" id="sliderTrack">
+
+          <article class="card">
+            <div class="card-media"><i class="fa-solid fa-basketball"></i></div>
+            <div class="card-body">
+              <span class="tag">Basketbol</span>
+              <h2>Takımımız Play-Off'a Yükseldi</h2>
+              <p>A takımımız bu sezon 18 galibiyet alarak bölge liginde play-off basamağına adını yazdırdı. Final serisi önümüzdeki ay başlıyor.</p>
+              <span class="card-date"><i class="fa-regular fa-calendar"></i> 12 Temmuz 2026</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><i class="fa-solid fa-person-swimming"></i></div>
+            <div class="card-body">
+              <span class="tag">Yüzme</span>
+              <h2>Genç Yüzücümüzden Bölge Rekoru</h2>
+              <p>17 yaşındaki sporcumuz 100m serbest stilde bölge rekorunu kırarak millî takım kampına davet edildi.</p>
+              <span class="card-date"><i class="fa-regular fa-calendar"></i> 5 Temmuz 2026</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><i class="fa-solid fa-person-running"></i></div>
+            <div class="card-body">
+              <span class="tag">Atletizm</span>
+              <h2>Yeni Antrenörümüz Kadromuza Katıldı</h2>
+              <p>Milli takım geçmişine sahip koçumuz, atletizm branşında teknik direktörlük görevine başladı.</p>
+              <span class="card-date"><i class="fa-regular fa-calendar"></i> 28 Haziran 2026</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-media"><i class="fa-solid fa-volleyball"></i></div>
+            <div class="card-body">
+              <span class="tag">Kulüp Duyurusu</span>
+              <h2>2026-2027 Sezonu Kayıtları Başladı</h2>
+              <p>Tüm branşlar için yeni sezon kayıtları açıldı. Erken kayıt yaptıranlara özel forma hediyesi var.</p>
+              <span class="card-date"><i class="fa-regular fa-calendar"></i> 20 Haziran 2026</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prevBtn" aria-label="Önceki"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="dots" id="dots"></div>
+        <button id="nextBtn" aria-label="Sonraki"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="logo"><span class="logo-mark">ZS</span> Zirve Spor Kulübü</div>
+    <div class="footer-links">
+      <a href="#haberler">Haberler</a>
+      <a href="#iletisim">İletişim</a>
+    </div>
+  </div>
+  <div class="footer-bottom">Bu sayfa bir teknik gösterim (demo) amacıyla hazırlanmıştır.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

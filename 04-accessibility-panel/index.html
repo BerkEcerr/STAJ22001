@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zirve Spor Kulübü — Erişilebilirlik</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button id="accessBtn" class="access-toggle" aria-label="Erişilebilirlik Ayarları">
+  <i class="fa-solid fa-universal-access"></i>
+</button>
+
+<aside id="accessibilityPanel" class="access-panel">
+  <div class="access-header">
+    <h2><i class="fa-solid fa-universal-access"></i> Erişilebilirlik</h2>
+    <button id="closePanel" class="close-btn" aria-label="Kapat"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+
+  <div class="group">
+    <p>Yazı Boyutu</p>
+    <div class="btn-row">
+      <button id="textSizeDown" class="chip"><i class="fa-solid fa-minus"></i></button>
+      <span id="textSizeLabel" class="chip-label">Normal</span>
+      <button id="textSizeUp" class="chip"><i class="fa-solid fa-plus"></i></button>
+    </div>
+  </div>
+
+  <div class="group">
+    <p>Kontrast</p>
+    <button id="contrastBtn" class="full-btn"><i class="fa-solid fa-circle-half-stroke"></i> Yüksek Kontrast Aç/Kapat</button>
+  </div>
+
+  <div class="group">
+    <p>Renk Modu</p>
+    <div class="color-options">
+      <button class="color-btn active" data-mode="normal">Normal</button>
+      <button class="color-btn" data-mode="mono">Gri Tonlama</button>
+      <button class="color-btn" data-mode="warm">Sıcak Ton</button>
+    </div>
+  </div>
+
+  <div class="group">
+    <p>Odak Vurgusu</p>
+    <button id="focusBtn" class="full-btn"><i class="fa-solid fa-crosshairs"></i> Bağlantı Vurgusunu Aç/Kapat</button>
+  </div>
+
+  <button id="resetBtn" class="reset-btn">Ayarları Sıfırla</button>
+</aside>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="logo"><span class="logo-mark">ZS</span> Zirve Spor Kulübü</div>
+    <nav class="site-nav">
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#tesisler">Tesisler</a>
+    </nav>
+    <a href="#" class="nav-cta">Üye Ol</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow"><i class="fa-solid fa-universal-access"></i> Herkes İçin Erişilebilir</span>
+    <h1>Sol üstteki simgeyle sayfayı kendinize göre uyarlayın.</h1>
+    <p class="lead">Yazı boyutunu büyütebilir, yüksek kontrast moduna geçebilir veya renk modunu değiştirebilirsiniz. Bu ayarlar, sayfanın tamamını anında etkiler.</p>
+  </div>
+</section>
+
+<section id="hakkimizda">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="eyebrow">Hakkımızda</span>
+      <h2>1998'den bu yana sporun içindeyiz</h2>
+      <p>Zirve Spor Kulübü, kurulduğu günden bu yana bölgesinde amatör ve profesyonel sporcular yetiştiren köklü bir kulüptür. Tesislerimiz, engelli erişimine uygun rampalar ve asansörlerle donatılmıştır.</p>
+    </div>
+  </div>
+</section>
+
+<section id="tesisler" style="background:var(--panel); border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-title">
+      <span class="eyebrow">Tesislerimiz</span>
+      <h2>Modern ve erişilebilir altyapı</h2>
+      <p>Kapalı spor salonu, olimpik yüzme havuzu, atletizm pisti ve voleybol sahalarımız; tekerlekli sandalye erişimine uygun rampalar, geniş koridorlar ve özel park alanlarıyla tüm sporcularımıza açıktır.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="logo"><span class="logo-mark">ZS</span> Zirve Spor Kulübü</div>
+    <div class="footer-links">
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#tesisler">Tesisler</a>
+    </div>
+  </div>
+  <div class="footer-bottom">Bu sayfa bir teknik gösterim (demo) amacıyla hazırlanmıştır.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
