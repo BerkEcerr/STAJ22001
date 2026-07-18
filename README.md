@@ -1,4 +1,4 @@
-# 🏆 Zirve Spor Kulübü — JS Teknik Vitrin Projesi
+# Zirve Spor Kulübü — JS Teknik Vitrin Projesi
 
 Stajım sırasında öğrendiğim ve gerçek bir kurumsal web sitesinde
 uyguladığım front-end tekniklerini, konudan bağımsız olarak sergilemek
