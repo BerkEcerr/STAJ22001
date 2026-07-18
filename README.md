@@ -1,8 +1,7 @@
 # Stajda Öğrenilen JS Teknikleri — 
 
 Bu klasör, staj sırasında öğrenilip uygulanan JavaScript tekniklerinin,
-gerçek staj projesindeki editöryal tasarım diliyle (aynı renk sistemi
-mantığı, tipografi, gölge/animasyon dili — sadece renkler farklı)
+gerçek staj projesindeki editöryal tasarım diliyle
 ama tamamen farklı bir konu (spor kulübü) üzerinden, detaylı ve
 tam sayfa örneklerle gösterilmesi amacıyla hazırlanmıştır.
 
